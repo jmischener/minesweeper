@@ -2,6 +2,9 @@
 
 Challenge made for [Tap](https://auntap.com/).
 
+Si eres programador, bajate el proyecto a tu pc, si no lo eres y estas ansioso de jugar, entra a la version online:
+https://jmischener.github.io/minesweeper/
+
 ## Available Scripts
 
 In the project directory, you can run:
