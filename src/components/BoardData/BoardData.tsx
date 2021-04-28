@@ -26,9 +26,11 @@ export const BoardData: React.FunctionComponent<BoardDataProps> = (props) => {
     <div style={{ width: props.size * 30 + 2 }}>
       <div>{renderMessage()}</div>
       <div>
-        <Alert severity="info">
-          {`Cantidad Bombas:${data.cantBombs - data.cantFlags}`}
-        </Alert>
+        {data.step !== eBoardState.Clean && (
+          <Alert severity="info">
+            {`Cantidad Bombas:${data.cantBombs - data.cantFlags}`}
+          </Alert>
+        )}
       </div>
     </div>
   );
